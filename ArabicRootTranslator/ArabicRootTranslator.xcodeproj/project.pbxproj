@@ -12,6 +12,11 @@
 		EB018D212935250F003B4D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB018D202935250F003B4D69 /* Assets.xcassets */; };
 		EB018D242935250F003B4D69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB018D232935250F003B4D69 /* Preview Assets.xcassets */; };
 		EB1E4C9D2A9DB1B100F7DB62 /* ArabicLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E4C9C2A9DB1B100F7DB62 /* ArabicLetterView.swift */; };
+		EB26038F2BBF559800C6AAEF /* VerbTensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26038E2BBF559800C6AAEF /* VerbTensesView.swift */; };
+		EB2603912BBF591200C6AAEF /* MoodTensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2603902BBF591200C6AAEF /* MoodTensesView.swift */; };
+		EB2603932BBF5EE500C6AAEF /* PronounTensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2603922BBF5EE500C6AAEF /* PronounTensesView.swift */; };
+		EB2603952BBF62D000C6AAEF /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2603942BBF62D000C6AAEF /* TranslationView.swift */; };
+		EB2603972BBFAAE900C6AAEF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2603962BBFAAE900C6AAEF /* Model.swift */; };
 		EB767B082A9DBA63001775B9 /* FormsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB767B072A9DBA63001775B9 /* FormsMainView.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +27,11 @@
 		EB018D202935250F003B4D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB018D232935250F003B4D69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB1E4C9C2A9DB1B100F7DB62 /* ArabicLetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicLetterView.swift; sourceTree = "<group>"; };
+		EB26038E2BBF559800C6AAEF /* VerbTensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbTensesView.swift; sourceTree = "<group>"; };
+		EB2603902BBF591200C6AAEF /* MoodTensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTensesView.swift; sourceTree = "<group>"; };
+		EB2603922BBF5EE500C6AAEF /* PronounTensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounTensesView.swift; sourceTree = "<group>"; };
+		EB2603942BBF62D000C6AAEF /* TranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationView.swift; sourceTree = "<group>"; };
+		EB2603962BBFAAE900C6AAEF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EB767B072A9DBA63001775B9 /* FormsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +49,11 @@
 		EB018D102935250E003B4D69 = {
 			isa = PBXGroup;
 			children = (
+				EB26038E2BBF559800C6AAEF /* VerbTensesView.swift */,
+				EB2603922BBF5EE500C6AAEF /* PronounTensesView.swift */,
+				EB2603942BBF62D000C6AAEF /* TranslationView.swift */,
+				EB2603902BBF591200C6AAEF /* MoodTensesView.swift */,
+				EB2603962BBFAAE900C6AAEF /* Model.swift */,
 				EB018D1B2935250E003B4D69 /* ArabicRootTranslator */,
 				EB018D1A2935250E003B4D69 /* Products */,
 			);
@@ -143,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2603972BBFAAE900C6AAEF /* Model.swift in Sources */,
 				EB018D1F2935250E003B4D69 /* ContentView.swift in Sources */,
 				EB767B082A9DBA63001775B9 /* FormsMainView.swift in Sources */,
+				EB2603952BBF62D000C6AAEF /* TranslationView.swift in Sources */,
+				EB26038F2BBF559800C6AAEF /* VerbTensesView.swift in Sources */,
+				EB2603912BBF591200C6AAEF /* MoodTensesView.swift in Sources */,
+				EB2603932BBF5EE500C6AAEF /* PronounTensesView.swift in Sources */,
 				EB018D1D2935250E003B4D69 /* ArabicRootTranslatorApp.swift in Sources */,
 				EB1E4C9D2A9DB1B100F7DB62 /* ArabicLetterView.swift in Sources */,
 			);

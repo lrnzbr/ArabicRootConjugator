@@ -17,10 +17,10 @@ struct ContentView: View {
     @State private var selectedLetter2 = ""
     @State private var selectedLetter3 = ""
     
-    func conjugateRoots() {
-        let rootConj = RootConjugation(letter1: selectedLetter1, letter2: selectedLetter2, letter3: selectedLetter3)
-        
-    }
+//    func conjugateRoots() {
+//        let rootConj = RootConjugation(letter1: selectedLetter1, letter2: selectedLetter2, letter3: selectedLetter3)
+//        
+//    }
     
     
     var body: some View {
@@ -45,16 +45,14 @@ struct ContentView: View {
                         }
                     }
                     
-                    
-                    Picker("Firt Letter", selection: $selectedLetter1) {
+                    Picker("First Letter", selection: $selectedLetter1) {
                         ForEach(arabicLetters, id: \.self) {
                             Text($0)
                         }
                     }
                 }
-                
-                Button("Conjugate"){
-                    
+                NavigationLink(destination: FormsMainView(rootLetters:  RootConjugation(letter1: selectedLetter1, letter2: selectedLetter2, letter3: selectedLetter3))){
+                    Text("Conjugate")
                 }
             }
         }
